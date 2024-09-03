@@ -1,0 +1,96 @@
+O projeto consiste na criação de um sistema de banco de dados para gerenciar produtos, clientes e vendas de uma loja local. O objetivo é construir um banco de dados eficiente que permita a administração e manipulação de informações essenciais para o funcionamento da loja. As principais funcionalidades incluem o gerenciamento de informações sobre clientes, produtos e transações de vendas.
+
+Requisitos:
+
+Criação do Banco de Dados:
+
+Nome do banco de dados: sistema_vendas
+Criação das Tabelas:
+
+Tabela de Clientes: Deve armazenar informações sobre clientes, incluindo um identificador único, nome, e-mail e telefone.
+Tabela de Produtos: Deve armazenar informações sobre produtos, incluindo um identificador único, nome, preço e quantidade em estoque.
+Tabela de Vendas: Deve registrar as vendas realizadas, incluindo um identificador único para cada venda, o identificador do cliente, o identificador do produto, a quantidade vendida e a data da venda.
+Inserção de Dados:
+
+Inserir pelo menos 3 clientes, 3 produtos e 5 vendas no banco de dados.
+Consultas e Relatórios:
+
+Mostrar todas as vendas realizadas, incluindo o nome do cliente e o nome do produto.
+Mostrar todas as compras realizadas por um cliente específico.
+Exibir o total de vendas realizadas por produto.
+Atualização e Deleção de Dados:
+
+Atualizar o estoque de um produto após uma venda.
+Atualizar as informações de um cliente.
+Deletar uma venda e, se necessário, deletar o cliente associado.
+Como Executar:
+
+Criação do Banco de Dados e Tabelas:
+
+Execute o script SQL fornecido para criar o banco de dados sistema_vendas e suas tabelas.
+Inserção de Dados:
+
+Utilize os comandos de inserção para adicionar dados fictícios às tabelas.
+Consultas e Relatórios:
+
+Execute as consultas fornecidas para verificar as vendas, compras por cliente e o total de vendas por produto.
+Atualização e Deleção de Dados:
+
+Teste as operações de atualização e deleção para garantir que o sistema funcione corretamente.
+# Sistema de Gerenciamento de Vendas
+
+## Descrição
+
+Este projeto consiste na criação de um banco de dados para gerenciar produtos, clientes e vendas de uma loja local. O sistema é projetado para armazenar e manipular informações sobre clientes, produtos e transações de vendas.
+
+## Requisitos
+
+1. **Banco de Dados:**
+   - Nome: `sistema_vendas`
+
+2. **Tabelas:**
+   - `clientes`: Informações sobre clientes (id_cliente, nome, email, telefone)
+   - `produtos`: Informações sobre produtos (id_produto, nome, preco, quantidade_estoque)
+   - `vendas`: Registros de vendas (id_venda, id_cliente, id_produto, quantidade, data_venda)
+
+3. **Dados Iniciais:**
+   - 3 clientes
+   - 3 produtos
+   - 5 vendas
+
+4. **Consultas e Relatórios:**
+   - Vendas com detalhes de clientes e produtos
+   - Compras realizadas por um cliente específico
+   - Total de vendas por produto
+
+5. **Atualização e Deleção:**
+   - Atualizar o estoque após venda
+   - Atualizar informações de clientes
+   - Deletar vendas e clientes
+
+## Scripts SQL
+
+O projeto inclui um script SQL para:
+1. Criar o banco de dados e tabelas.
+2. Inserir dados iniciais.
+3. Executar consultas para relatórios.
+4. Atualizar e deletar dados conforme necessário.
+
+## Instruções
+
+1. Execute o script SQL para criar o banco de dados e tabelas.
+2. Insira os dados iniciais fornecidos.
+3. Execute as consultas para verificar as vendas e relatórios.
+4. Teste as operações de atualização e deleção.
+
+## Testes
+
+Certifique-se de testar todas as funcionalidades para garantir que o sistema está funcionando corretamente e manipulando os dados como esperado.
+
+## Contribuições
+
+Sinta-se à vontade para contribuir com melhorias ou correções para este projeto.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
